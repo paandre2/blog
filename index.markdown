@@ -6,7 +6,7 @@ layout: home
 ---
 Hello! My name is Paul André, I am 26, and I have recently graduated from my PhD in experimental nuclear physics. I am now a consultant for the International Atomic Energy Agency.
 
-The purpose of this blog is to showcase my research works, but I will also use it as a space to share my curiosity and personal experiences about various topics such as music, litterature (and art in general), and puzzles. The views expressed here are my own, and my own only. They do not reflect the views of any institute to which I am affiliated.
+The purpose of this blog is to showcase my research works, but I will also use it as a space to share my curiosity and personal experiences about various topics such as music, literature (and art in general), and puzzles. The views expressed here are my own, and my own only. They do not reflect the views of any institute to which I am affiliated.
 
 In the 'About' section, you can find a summary of my CV. The 'Research' section will give you an overview of my research interests and the projects I have been involved in. The 'Posts' section will show the more personal matters mentioned above.
 
