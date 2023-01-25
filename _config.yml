@@ -1,0 +1,47 @@
+title: Paul André, PhD
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the personal webpage of Paul André.
+  © Paul André 2023
+baseurl: "/blog"
+email: contact.paandre2@gmail.com
+avatar: logo.jpeg
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+skin:
+  - midnight
+
+paginate: 10
+
+destination: docs
+
+categories:
+  - research
+  - posts
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+# Jekyll SEO Tag (Optional)
+# =========================
+#logo: logo.jpeg
+social:
+  links:
+    - https://www.linkedin.com/in/paul-andr%C3%A9-415289132/
+    - https://github.com/paandre2
+
