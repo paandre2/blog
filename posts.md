@@ -1,8 +1,7 @@
 ---
 layout: archive-taxonomies
-type: posts
+type: categories
 title: Posts
 permalink: /posts/
 ---
 
-This section is empty ... for the moment!

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "PhD work"
-categories: research
 permalink: "/research/phd-thesis/" 
 ---
 

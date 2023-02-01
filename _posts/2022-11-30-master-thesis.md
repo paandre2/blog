@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Master's thesis work"
-categories: research
 permalink: "/research/master-thesis/" 
 ---
 
