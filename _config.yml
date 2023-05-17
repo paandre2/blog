@@ -15,6 +15,10 @@ plugins:
 skin:
   - midnight
 
+assets:
+  sources:
+    -assets/fonts
+
 paginate: 10
 
 destination: docs

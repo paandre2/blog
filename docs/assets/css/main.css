@@ -303,6 +303,12 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: "Ubuntu Monospace";
+  src: url("../../assets/fonts/UbuntuMono-R.ttf"); }
+@font-face {
+  font-family: "Courier New";
+  src: url("../../assets/fonts/cour.ttf"); }
 html {
   font-size: 20px; }
   @media screen and (max-width: 600px) {
@@ -405,7 +411,7 @@ blockquote {
  */
 pre,
 code {
-  font-family: Inconsolata;
+  font-family: "Courier New";
   border-radius: 0.3em; }
 
 code {
@@ -900,7 +906,7 @@ ul.post-categories li {
     margin-bottom: 0.6666666667rem; }
 
 .post-list-by-taxonomy time {
-  font-family: Inconsolata; }
+  font-family: "Courier New"; }
 
 .back-to-top {
   display: block;

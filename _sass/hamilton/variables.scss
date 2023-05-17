@@ -1,3 +1,12 @@
+@font-face{
+	font-family: "Ubuntu Monospace";
+	src:url("../../assets/fonts/UbuntuMono-R.ttf");
+}
+@font-face{
+	font-family: "Courier New";
+	src:url("../../assets/fonts/cour.ttf");
+}
+
 // Fonts
 //$base-font-family: "Open Sans" !default;
 $base-font-family: "Noto Sans" !default;
@@ -5,11 +14,13 @@ $base-font-family: "Noto Sans" !default;
 $reading-font-family: "Noto Sans" !default;
 //$reading-font-family: "Nanum Myeongjo", "Roboto Slab", "Noto Serif SC", "Noto Serif TC" !default;
 $headline-font-family: Roboto, "Noto Sans SC", "Noto Sans TC" !default;
-$code-font-family:  Inconsolata !default;
+//$code-font-family:  Inconsolata !default;
+$code-font-family:  "Courier New";// !default;
 $handwriting-font-family: "Dancing Script", "Ma Shan Zheng" !default;
 $serif-font-family: "Quattrocento" !default;
 $base-font-size:    20px !default;
 $base-line-height:  1.5 !default;
+
 
 // Layouts
 $spacing-unit:      2rem !default;

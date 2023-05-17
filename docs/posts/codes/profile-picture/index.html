@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How I made myself a profile picture using AI | Paul André, PhD</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="How I made myself a profile picture using AI" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="    While building this website, I put a picture of myself (the one that is now on the home page) in the sidebar. After uploading my first post, I started navigating from one page to another to check that everything was in its right place. As I was doing that, I felt my own picture watching me the whole time from the panel on the left. I wanted the work shown here to be linked to me but this felt … a bit too much. So I decided to change that." />
+<meta property="og:description" content="    While building this website, I put a picture of myself (the one that is now on the home page) in the sidebar. After uploading my first post, I started navigating from one page to another to check that everything was in its right place. As I was doing that, I felt my own picture watching me the whole time from the panel on the left. I wanted the work shown here to be linked to me but this felt … a bit too much. So I decided to change that." />
+<link rel="canonical" href="http://localhost:4000/blog/posts/codes/profile-picture/" />
+<meta property="og:url" content="http://localhost:4000/blog/posts/codes/profile-picture/" />
+<meta property="og:site_name" content="Paul André, PhD" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-09T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How I made myself a profile picture using AI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-09T00:00:00+02:00","datePublished":"2023-05-09T00:00:00+02:00","description":"    While building this website, I put a picture of myself (the one that is now on the home page) in the sidebar. After uploading my first post, I started navigating from one page to another to check that everything was in its right place. As I was doing that, I felt my own picture watching me the whole time from the panel on the left. I wanted the work shown here to be linked to me but this felt … a bit too much. So I decided to change that.","headline":"How I made myself a profile picture using AI","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/codes/profile-picture/"},"url":"http://localhost:4000/blog/posts/codes/profile-picture/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="Paul André, PhD" />
+
+
+
+
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans|Roboto|Roboto%20Slab|Inconsolata|Dancing%20Script|Noto%20Sans%20SC|Noto%20Sans%20TC|Noto%20Serif%20SC|Noto%20Serif%20TC|Ma%20Shan%20Zheng">
+
+<link rel="stylesheet" href="/blog/assets/css/main.css">
+<link rel="stylesheet" href="/blog/assets/css/skin.css">
+
+<!-- Begin selecting skin -->
+
+<!-- End selecting skin -->
+
+<script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <div class="site-container">
+      <header class="site-header">
+        <div class="wrapper">
+  <script>
+    function clickSidebarButton() {
+      const elem = document.getElementById("site-sidebar")
+      if (elem.style.display == "none" || elem.style.display == "") {
+        elem.style.display = "block";
+      } else {
+        elem.style.display = "none";
+      }
+    }
+  </script>
+  <a class="site-sidebar-button" onclick="clickSidebarButton()"><i class="far fa-user"></i>
+  </a>
+
+  <a class="site-title" rel="author" href="/blog/">Paul André, PhD</a>
+
+  
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger" title="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <ul class="trigger">
+              <li><a class="" href="/blog/about/">About</a></li>
+            
+              <li><a class="" href="/blog/posts/">Posts</a></li>
+            
+              <li><a class="" href="/blog/research/">Research</a></li>
+            </ul>
+    </nav>
+  
+</div>
+
+      </header>
+      
+      <div class="site-body wrapper">
+        <aside class="site-sidebar" id="site-sidebar">
+          
+            <div class="sidebar-section"><img src="/blog/Git_Avatar.png" class="author-avatar u-photo align-center" alt="">
+  </div>
+
+<div class="sidebar-section">
+  <ul class="contact-list">
+    
+    <li>
+        <i class="sidebar-icon fas fa-envelope"></i>
+        <a class="contact-info u-email" href="mailto:contact.paandre2@gmail.com">Email me!</a>
+      </li>
+    
+  </ul>
+</div>
+
+<div class="sidebar-section feed-subscribe">
+  <a href="/blog/feed.xml">
+    <i class="sidebar-icon fas fa-rss"></i><span>Subscribe</span>
+  </a>
+</div>
+
+<div class="sidebar-section">
+    <ul class="social-icons">
+      <li>
+          <a class="social-icon" href="https://www.linkedin.com/in/paul-andr%C3%A9-415289132/"><i class="fab fa-linkedin fa-2x" title="LinkedIn"></i></a>
+        </li><li>
+          <a class="social-icon" href="https://github.com/paandre2"><i class="fab fa-github fa-2x" title="GitHub"></i></a>
+        </li>
+    </ul>
+  </div>
+<!--
+<div class="sidebar-section site-language">
+  <a href="/fr/">
+	  <img src="/assets/fr.png" alt="french-flag" width="15" height="15"><span>  Cette page en français</span>
+  </a>
+  <br>
+  <a href="/">
+	  <img src="/assets/us.png" alt="us-flag" width="15" height="15"><span>  This page in english</span>
+  </a>
+</div>
+-->
+
+          
+        </aside>
+        <main class="site-main" id="site-main" aria-label="Content" tabindex="1">
+          <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">How I made myself a profile picture using AI</h1>
+  </header>
+
+  <div class="post-content">
+    <p>    <em>While building this website, I put a picture of myself (the one that is now on the home page) in the sidebar. After uploading my first post, I started navigating from one page to another to check that everything was in its right place. As I was doing that, I felt my own picture watching me the whole time from the panel on the left. I wanted the work shown here to be linked to me but this felt … a bit too much. So I decided to change that.</em></p>
+
+<p>     I wanted, as a sidebar picture, something more playful, but that could still identify me. With these constraints, a doodle of myself felt like a good solution. One tiny problem is that I am learning to draw, but I am definitely not there yet. I wanted everything to remain as cheap as possible, and I wanted to do it all by myself. So I asked the cartoonist that everyone talks about these days for help: Midjourney.</p>
+
+<p>     I created an account and started playing with the AI. The idea of using Discord as an interface makes it very straightforward. (Tip: you can invite the bot in a private chatroom with yourself. This way, you are out of the constant flood of prompts from the other users.) As I said earlier, I wanted the picture to be playful, to represent creativity and curiosity, while also bringing science and engineering to mind. Therefore, I opted for pixel art. The prompt I used was the following one:</p>
+
+<p><code> beardless man at computer with man bun and glasses, pixel art, minimalist, low resolution, low fidelity, warm colors, lights from the screen, cozy, end of afternoon </code></p>
+
+<p>One of the result was the following picture:</p>
+
+<p style="text-align:center;"><img src="/blog/assets/img/midjourney_raw.png" alt="The result of the prompt" style="height: 300px; width:300px;" class="center" /></p>
+
+<p>     Believe it or not, if you have long hair and a light beard, you need to precise <code>beardless</code> in the prompt (and as you can see, the efficiency of it is not great). It makes sense after checking “Men with long hair” in Google, and seeing that long hair and big beards are apparently inseparable. (I promise that I do not only talk about <a href="/blog/posts/music/barber-beats/">haircuts for men</a> on this blog.) The point of precising <code>cozy, end of afternoon</code> was to suggest a window in the background, or an ambient light corresponding to these terms. As one can see, it did not really work out. Maybe this triggered the addition of the mug next to the computer, which is a rather nice touch?</p>
+
+<p>     I thought that it was a very good base. The color palette is not great, and there are some odd features, such as the glasses. But overall, the assignment had been completed. The good thing with pixel art is that it is not unthinkable to try to adjust or correct an already existing material, even with basic skills in drawing. (Drawing something from scratch is, however, another story …) So I did using an open source tool that even runs on web browsers named <a href="https://github.com/piskelapp/piskel">Piskel</a>. I cannot stress enough how simple, straightforward and yet complete this software is. I used it to change some colors and correct minor mistakes in the picture and the result was the following one:</p>
+
+<p style="text-align:center;"><img src="/blog/assets/img/git_avatar.png" alt="After the correction on Piskel" class="center" /></p>
+
+<p>     I downscaled the picture to make it easier for me to edit, due to the lower amount of pixels. However, I still wanted to display the picture in a good quality everywhere I needed to. In a few lines, Python enabled me to rescale the picture as much as I wanted, and here we are! (This last step gave me an idea that I will expose in another post. Stay tuned!)</p>
+
+<p>     The final result is now visible on the present sidebar, as well as on my GitHub profile. This could be improved, and is far from the quality, originality and customization that a human artist could have provided: I am completely dependent on the output of a machine … that is trained on pre-existing pictures. It also required my manual input at some point. However, few hours of work have brought me a result that is good enough for a personal blog, and that respected the two initial constraints: I was able to complete the whole process myself, and at no cost. In addition, this was possible without high skills in drawing, and using my eight-year-old computer that is now as powerful as a toaster and held together with duct tape. This gives me plenty of new ideas of things to try, that I will show around here.</p>
+
+  </div>
+
+</article>
+
+          <footer class="site-footer">
+            <div class="footer-col-wrapper">
+
+  <div class="footer-col">
+    <div class="copyright">
+      
+      
+      
+      
+    </div>
+    <p>
+      Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/ngzhio/jekyll-theme-hamilton">Hamilton</a>
+    </p>
+  </div>
+
+  <div class="footer-col">
+    <p>This is the personal webpage of Paul André. © Paul André 2023</p>
+  </div>
+</div>
+
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+
+</html>
