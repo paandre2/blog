@@ -7,6 +7,9 @@ permalink: /about/
 
 Here is a short summary of my CV and my experiences so far.
 
+## *2023-Now:* Consultant for the International Atomic Energy Agency
+Since January 2023, I work as a consultant for the IAEA, in the Nuclear Science and Instrumentation Laboratory. I am performing the characterization and optimization of neutron imaging systems with compact neutron generators. My duties involve measurements and imaging with these generators, as well as developing algorithms for image processing and simulations.
+
 ## *2019-2022:* PhD in experimental nuclear physics
 I have studied for my PhD in the French Alternative Energies and Atomic Energy Commission (CEA) in Saclay, France. I have worked on the topic of spectroscopy of exotic nuclei at the Nuclear Physics department of the <span style="color: #ffb66c">**Institute of Research into the Fundamental laws of the Universe (IRFU)**</span>. More details about the work I defended the 21st of October 2022 can be found [here](/blog/research). 
 
