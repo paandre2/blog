@@ -3,6 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the personal webpage of Paul André.
   © Paul André 2023
 baseurl: "/blog"
+url: "https://paandre2.github.io"
 email: contact.paandre2@gmail.com
 avatar: Git_Avatar.png
 
